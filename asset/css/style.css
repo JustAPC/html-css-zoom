@@ -44,16 +44,16 @@ main {
 }
 .user-info {
     color: white;
-    background-color: rgba(151, 151, 151, 0.2);
+    background-color: rgba(151, 151, 151, 0.4);
     position: absolute;
     padding: 5px;
 }
 .status {
-    bottom: 9px;
+    bottom: 5px;
     left: 0;
 }
 .name {
-    bottom: 9px;
+    bottom: 5px;
     left: 30px;
     font-size: 0.8rem;
     padding: 6px 5px 5px 0px;
