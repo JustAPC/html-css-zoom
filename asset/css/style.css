@@ -3,3 +3,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    width: 90vw;
+    height: 80vh;
+    margin: 10vh auto;
+    background-color: red;
+    overflow-y: auto;
+    position: relative;
+}
+.users-row {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 5px auto;
+}
+.user-section img{
+    margin: 5px auto;
+}
+.user-section{
+    position: relative;
+}
+.user-info {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    padding: 5px;
+}
+.status {
+    bottom: 9px;
+    left: 0;
+}
+.name {
+    bottom: 9px;
+    left: 30px;
+    font-size: 0.8rem;
+    padding: 6px 5px 5px 0px;
+}
