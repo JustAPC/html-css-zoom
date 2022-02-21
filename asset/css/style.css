@@ -71,7 +71,6 @@ footer{
 .buttons {
     margin-left: 15px;
     margin-right: 5px;
-    height: 7vh;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -101,5 +100,5 @@ ul li:hover {
 }
 #end-meeting {
     background-color: #4A4A4A;
-    color: red<;
+    color: red;
 }
