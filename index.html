@@ -245,69 +245,81 @@
     </main>
 
     <footer> <!-- Barra di navigazione -->
+        <ul class="menu"> <!-- Menu SX -->
+            <li class="buttons"> <!-- Mute -->
+                <div>
+                    <i class="fa-solid fa-microphone button-logo"></i>
+                    <p>Mute</p>
+                </div>
+                <i class="fa-solid fa-angle-up arrow-up"></i>
+            </li>
+            <li class="buttons"> <!-- Stop Video -->
+                <div>
+                    <i class="fa-solid fa-video button-logo"></i>
+                    <p>Stop Video</p>
+                </div>
+                <i class="fa-solid fa-angle-up arrow-up"></i>
+            </li>
+        </ul>
         
-        <div class="left menu"> <!-- Menu Sinistra -->
-            <div class="icon"> <!-- Invite -->
-                <i class="fa-solid fa-microphone menu-icon"></i>
-                <p>Mute</p>
-            </div>
-            <i class="fa-solid fa-angle-up"></i>
-                
-            <div class="icon">
-                <i class="fa-solid fa-video menu-icon"></i>
-                <p>Stop Video</p>
-            </div>
-            <i class="fa-solid fa-angle-up"></i>
-        </div>
-
-        <div class="center menu"> <!-- Menu Centrale -->
-            <div class="icon"> <!-- Invite -->
-                <i class="fa-solid fa-user-plus menu-icon"></i>
-                <p>Invite</p>
-            </div>
-                
-            <div class="icon"> <!-- Manage Participants -->
-                <i class="fa-solid fa-user-group menu-icon"></i>
-                <p>Manage Participants</p>
-            </div>
-
-            <div class="icon"> <!-- Polling -->
-                <i class="fa-solid fa-chart-column menu-icon"></i>
-                <p>Polling</p>
-            </div>
-
-            <div class="icon"> <!-- Screen Share -->
-                <i class="fa-solid fa-share-from-square menu-icon green"></i>
-                <p>Share Screen</p>
-            </div>
-            <i class="fa-solid fa-angle-up"></i>
-
-            <div class="icon"> <!-- Chat -->
-                <i class="fa-solid fa-comment menu-icon"></i>
-                <p>Chat</p>
-            </div>
-
-            <div class="icon"> <!-- Record -->
-                <i class="fa-solid fa-record-vinyl menu-icon"></i>
-                <p>Record</p>
-            </div>
-
-            <div class="icon"> <!-- Breakout Rooms -->
-                <i class="fa-solid fa-grip menu-icon"></i>
-                <p>Breakout Rooms</p>
-            </div>
-
-            <div class="icon"> <!-- More -->
-                <i class="fa-solid fa-ellipsis menu-icon"></i>
-                <p>More</p>
-            </div>
-
-        </div>
-
-        <div class="right menu"> <!-- Menu Destra -->
-            <h5>End Meeting</h5>
-        </div>
+        <ul class="menu"> <!-- Menu Centro -->
+            <li class="buttons"> <!-- Invite -->
+                <div>
+                    <i class="fa-solid fa-user-plus button-logo"></i>
+                    <p>Invite</p>
+                </div> 
+            </li>
+            <li class="buttons"> <!-- Manage Participants -->
+                <div>
+                    <i class="fa-solid fa-user-group button-logo"></i>
+                    <p>Manage Participants</p>
+                </div> 
+            </li>
+            <li class="buttons"> <!-- Polling -->
+                <div>
+                    <i class="fa-solid fa-chart-column button-logo"></i>
+                    <p>Polling</p>
+                </div> 
+            </li>
+            <li class="buttons"> <!-- Share Screen -->
+                <div>
+                    <i class="fa-solid fa-share-from-square button-logo green"></i>
+                    <p>Share Screen</p>
+                </div>
+                <i class="fa-solid fa-angle-up arrow-up"></i> 
+            </li>
+            <li class="buttons"> <!-- Chat -->
+                <div>
+                    <i class="fa-solid fa-comment button-logo"></i>
+                    <p>Chat</p>
+                </div> 
+            </li>
+            <li class="buttons"> <!-- Record -->
+                <div>
+                    <i class="fa-solid fa-record-vinyl button-logo"></i>
+                    <p>Record</p>
+                </div> 
+            </li>
+            <li class="buttons"> <!-- Breakout Rooms -->
+                <div>
+                    <i class="fa-solid fa-grip button-logo"></i>
+                    <p>Breakout Rooms</p>
+                </div> 
+            </li>
+            <li class="buttons"> <!-- More -->
+                <div>
+                    <i class="fa-solid fa-ellipsis button-logo"></i>
+                    <p>More</p>
+                </div> 
+            </li>
+        </ul>
         
+        <ul id="end-meeting" class="menu"> <!-- Menu DX -->
+            <li class="buttons">
+                <h5>End Meeting</h5>
+            </li> 
+        </ul>
+
     </footer>
 
 </body>
